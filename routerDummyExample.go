@@ -7,14 +7,15 @@ import (
 )
 
 func main() {
-	router.AddRoute(
-		http.MethodGet,
-		"hello/world",
-		func(writer http.ResponseWriter, request *http.Request) {
-			writer.Write([]byte("Hello World!\n"))
-		},
-		"hello.world",
-	)
+	method := http.MethodGet
+	url := "hello/world"
+	name := "hello.world"
+
+	handler := func(writer http.ResponseWriter, request *http.Request) {
+		writer.Write([]byte("Hello World!\n"))
+	}
+
+	router.AddRoute(method, url, handler, name)
 
 	mux := http.NewServeMux()
 
