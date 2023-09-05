@@ -1,4 +1,4 @@
 github.com/EugeneGpil/getFormattedUrls v0.1.0 h1:1lvL6rfRJY8xU0DQrypaHbdUgN/b6ACl5SXMf58sKIQ=
 github.com/EugeneGpil/getFormattedUrls v0.1.0/go.mod h1:qe8oqvDy0EDAb8prx4cdJGVxHT5L6+kotLjmqb+/w24=
-github.com/EugeneGpil/router v0.0.2 h1:lLte3Cgsk17DZtiQ6aCIyo2q/qdbOIieFLXzwEkdC8g=
-github.com/EugeneGpil/router v0.0.2/go.mod h1:dj5RayQXtYjZc3XRea4NlDofcgAzppGn+85TxlB6pgE=
+github.com/EugeneGpil/router v0.0.3 h1:LDeFsR38mljN542zoLGyPUfR9lUeOrDC0k1FWyPc7GI=
+github.com/EugeneGpil/router v0.0.3/go.mod h1:dj5RayQXtYjZc3XRea4NlDofcgAzppGn+85TxlB6pgE=
